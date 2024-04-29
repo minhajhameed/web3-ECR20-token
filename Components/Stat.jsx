@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { company } from "../constants";
+import { company } from "@constants";
 import LogoSlide from "./LogoSlide";
 
 const Stat = () => {

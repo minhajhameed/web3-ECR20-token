@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { images } from "../constants";
+import { images } from "@constants";
 
 const WhyUs = () => {
   return (

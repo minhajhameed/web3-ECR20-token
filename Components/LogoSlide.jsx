@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { company } from "../constants";
 
 const LogoSlide = ({ images, title, direction }) => {
   return (
