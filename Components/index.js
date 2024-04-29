@@ -1,36 +1,33 @@
 import About from "./About";
-import ArrowUp from "./ArrowUp";
-import Banner from "./Banner";
-import Blog from "./Blog";
-import Client from "./Client";
-import Contact from "./Contact";
-import Distribution from "./Distribution";
+import Hero from "./Hero";
+import WhyUs from "./WhyUs";
+import BuyToken from "./BuyToken";
 import Faq from "./Faq";
 import Footer from "./Footer";
 import Header from "./Header";
 import Loader from "./Loader";
-import MobileApp from "./MobileApp";
-import Service from "./Service";
-import Team from "./Team";
-import TimeLine from "./TimeLine";
+import Stat from "./Stat";
 import TokenSale from "./TokenSale";
-
+import LogoSlide from "./LogoSlide";
+import TokenDetails from "./TokenDetails";
+import TransferToken from "./TransferToken";
+import Token from "./Token";
+import Fox from "./Fox";
 
 export {
-    About,
-    ArrowUp,
-    Banner,
-    Blog,
-    Client,
-    Contact,
-    Distribution,
-    Faq,
-    Footer,
-    Header,
-    Loader,
-    MobileApp,
-    Service,
-    Team,
-    TimeLine,
-    TokenSale
-}
+  About,
+  Hero,
+  WhyUs,
+  BuyToken,
+  Faq,
+  Footer,
+  Header,
+  Loader,
+  Stat,
+  TokenSale,
+  LogoSlide,
+  TokenDetails,
+  Token,
+  Fox,
+  TransferToken
+};

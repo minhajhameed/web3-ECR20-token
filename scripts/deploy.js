@@ -7,7 +7,7 @@ const tokens = (nToken) => {
 
 async function main() {
   //DEPLOY TOKEN CONTRACT
-  const _initialSupply = tokens(50000000);
+  const _initialSupply = tokens(10000);
 
   const CryptoFox = await hre.ethers.getContractFactory("CryptoFox");
 

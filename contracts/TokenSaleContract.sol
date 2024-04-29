@@ -25,6 +25,7 @@ contract TokenSale {
     function buyToken(uint256 _numberOfTokens) public payable {
         require(msg.value == multiply(_numberOfTokens, tokenPrice));
         require(tokenContract.balanceOf(address(this)) >= _numberOfTokens);
+        // require(tokenContract.transfer(msg.sender,_numberOfTokens));
         require(
             tokenContract.transfer(
                 msg.sender,

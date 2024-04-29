@@ -1,9 +1,9 @@
-import Hero from "@Components/Hero";
+import Main from "@Components/Main";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
+    <main className="bg-black">
+      <Main />
     </main>
   );
 }

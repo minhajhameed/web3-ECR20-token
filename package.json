@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.0",
     "ethers": "^5.7.2",
+    "@react-three/drei": "7.26.1",
+    "@react-three/fiber": "7.0.21",
+    "framer-motion": "6.0.0-beta.5",
+    "framer-motion-3d": "6.0.0-beta.5",
+    "next": "14.1.0",
+    "popmotion": "^11.0.5",
     "react": "^18",
     "react-countdown": "^2.3.5",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
-    "web3modal": "^1.9.9"
+    "react-use-measure": "^2.1.1",
+    "web3modal": "^1.9.9",
+    "three": "0.135.0"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",

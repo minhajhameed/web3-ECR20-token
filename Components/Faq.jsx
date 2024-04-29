@@ -1,7 +1,18 @@
 import React from "react";
 
 const Faq = () => {
-  return <div>Faq</div>;
+  const { transferNativeToken, tokenBalance } = useStateContext();
+
+  return (
+    <div>
+      <div
+        onClick={() => transferNativeToken()}
+        className="bg-black p-3 rounded-lg text-white"
+      >
+        Transfer
+      </div>
+    </div>
+  );
 };
 
 export default Faq;

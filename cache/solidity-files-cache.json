@@ -2,7 +2,7 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "E:\\work\\Fox\\crypto-fox\\contracts\\CryptoFox.sol": {
-      "lastModificationDate": 1713012801051,
+      "lastModificationDate": 1713796865034,
       "contentHash": "106da9fca73cbb840b90be2bdf992273",
       "sourceName": "contracts/CryptoFox.sol",
       "solcConfig": {
@@ -38,8 +38,8 @@
       ]
     },
     "E:\\work\\Fox\\crypto-fox\\contracts\\TokenSaleContract.sol": {
-      "lastModificationDate": 1713015245743,
-      "contentHash": "b29db3fd4138e81b47197d5e05bf8956",
+      "lastModificationDate": 1713870204368,
+      "contentHash": "80d161bbbc40bc23a169b5ca0e3cb1f1",
       "sourceName": "contracts/TokenSaleContract.sol",
       "solcConfig": {
         "version": "0.8.24",

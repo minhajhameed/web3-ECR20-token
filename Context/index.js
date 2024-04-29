@@ -18,6 +18,7 @@ export const StateContextProvider = ({ children }) => {
 
   const [address, setAddress] = useState("");
   const [balance, setBalance] = useState("");
+  const [tokenBalance, setTokenBalance] = useState(0);
   const [nativeToken, setNativeToken] = useState("");
   const [tokenHolder, setTokenHolder] = useState([]);
   const [tokenSale, setTokenSale] = useState("");
@@ -37,10 +38,8 @@ export const StateContextProvider = ({ children }) => {
       if (account) {
         tokenBalance = await connectedTokenContract.balanceOf(account);
       } else {
-        tokenBalance = 500;
+        tokenBalance = 0;
       }
-
-      console.log(tokenBalance.toString());
 
       const tokenName = await connectedTokenContract.name();
       const tokenSymbol = await connectedTokenContract.symbol();
@@ -98,12 +97,13 @@ export const StateContextProvider = ({ children }) => {
       };
 
       setTokenSale(tokenSale);
-      console.log(account);
-      console.log(tokenSale);
-      console.log(currentHolder);
-      console.log(nativeToken);
+      setTokenBalance(nativeToken.tokenBalance);
+      console.log("acc: ", account);
+      console.log("Sale Imp**: ", tokenSale);
+      console.log("curr: ", currentHolder);
+      console.log("Native: ", nativeToken);
     } catch (error) {
-      console.log(error);
+      console.log("err: ", error);
     }
   };
 
@@ -120,7 +120,7 @@ export const StateContextProvider = ({ children }) => {
         value: amount.toString(),
       });
       await buying.wait();
-      console.log(buying);
+      console.log("buy: ", buying);
       window.location.reload();
     } catch (err) {
       console.log(err);
@@ -161,6 +161,7 @@ export const StateContextProvider = ({ children }) => {
         tokenSale,
         tokenHolder,
         nativeToken,
+        tokenBalance,
         balance,
         address,
       }}
