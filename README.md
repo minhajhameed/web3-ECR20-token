@@ -1,8 +1,8 @@
 # ERC20 Token Selling Web3 Platform with Solidity, Hardhat and Next.js
 
-[![Video Name](/public/screen.png)](https://www.youtube.com/watch?v=WqkB42z-D6Q?si=7RRigYNfXkXC1SfY)
+[![Video Name](/public/screen.png)](https://youtu.be/UAGUpER9Uy4?si=TnCD9CSMLEpEzxH8)
 
-Watch demo video of the project: [youtube](https://www.youtube.com/watch?v=WqkB42z-D6Q?si=7RRigYNfXkXC1SfY)
+Watch demo video of the project: [youtube](https://youtu.be/UAGUpER9Uy4?si=TnCD9CSMLEpEzxH8)
 
 ---
 
