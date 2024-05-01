@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ERC20 Token Selling Web3 Platform with Solidity, Hardhat and Next.js
 
-## Getting Started
+[![Video Name](/public/screen.png)](https://www.youtube.com/watch?v=WqkB42z-D6Q?si=7RRigYNfXkXC1SfY)
 
-First, run the development server:
+Watch demo video of the project: [youtube](https://www.youtube.com/watch?v=WqkB42z-D6Q?si=7RRigYNfXkXC1SfY)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Welcome to our ERC20 token selling web3 platform developed with Hardhat and Next.js
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Features:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **ERC20 Token Sales:** Facilitates the selling of ERC20 tokens through a decentralized platform.
+- **Solidity Smart Contracts:** Employs Solidity for writing and deploying Ethereum smart contracts, ensuring robust and secure token functionality.
+- **Hardhat:** Utilizes Hardhat for developing and testing Ethereum smart contracts, ensuring reliability and security.
+- **Next.js Frontend:** Employs Next.js for building a dynamic and efficient user interface.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Project Overview:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is a decentralized platform for selling ERC20 tokens. Users can interact with smart contracts deployed on the Ethereum blockchain to purchase tokens securely and transparently.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### How to Develop Further:
 
-## Deploy on Vercel
+1. **Clone the project repository:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/minhajhameed/web3-ECR20-token.git
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd web3-ECR20-token
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Compile and deploy smart contracts with Hardhat:**
+
+   ```bash
+   npx hardhat node
+   npx hardhat deploy --network YOUR_NETWORK
+   ```
+
+5. **Start the Next.js frontend:**
+
+   ```bash
+   npm run dev
+   ```
+
+6. **Access the web application:** Open your browser and navigate to http://localhost:3000.
+
+## Usage:
+
+### 1. Connecting Wallet:
+
+- Users can connect their Ethereum wallet (e.g., Metamask) to the platform to interact with smart contracts and purchase tokens.
+
+### 2. Purchasing ERC20 Tokens:
+
+- Once connected, users can browse available ERC20 tokens and purchase them using their connected wallet.
+
+## License:
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact:
+
+For any questions or feedback, feel free to reach out to us at [minhajham@yahoo.com](mailto:minhajham@yahoo.com).

@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\work\\Fox\\crypto-fox\\contracts\\CryptoFox.sol": {
+      "lastModificationDate": 1713796865034,
+      "contentHash": "106da9fca73cbb840b90be2bdf992273",
+      "sourceName": "contracts/CryptoFox.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CryptoFox"
+      ]
+    },
+    "E:\\work\\Fox\\crypto-fox\\contracts\\TokenSaleContract.sol": {
+      "lastModificationDate": 1713870204368,
+      "contentHash": "80d161bbbc40bc23a169b5ca0e3cb1f1",
+      "sourceName": "contracts/TokenSaleContract.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CryptoFox.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TokenSale"
+      ]
+    }
+  }
+}
